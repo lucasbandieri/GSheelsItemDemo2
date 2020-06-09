@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/h_name"
+            android:inputType="textPersonName"
+            android:tag="name" />
+
+        <EditText
+            android:id="@+id/et_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/l_name"
+            android:inputType="textPersonName"
+            android:tag="lname" />
+
+        <EditText
+            android:id="@+id/et_tdoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/t_docum"
+            android:inputType="textPersonName"
+            android:tag="tdoc" />
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/radioGroupTdni"-->
+<!--            android:layout_width="466dp"-->
+<!--            android:layout_height="7dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingBottom="@dimen/text_margin">-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radio_dni"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/text_margin"-->
+<!--                android:layout_weight="1"-->
+<!--                android:checked="true"-->
+<!--                android:onClick="onRadioClicked"-->
+<!--                android:tag="DNI"-->
+<!--                android:text="@string/dni" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radio_pasaport"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:onClick="onRadioClicked"-->
+<!--                android:tag="Pasaporte"-->
+<!--                android:text="@string/pasaport" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/radio_partnac"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:onClick="onRadioClicked"-->
+<!--                android:tag="P. nacimiento"-->
+<!--                android:text="@string/partnac" />-->
+
+<!--        </RadioGroup>-->
+
+        <Button
+            android:id="@+id/btn_add_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Guardar Registro" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

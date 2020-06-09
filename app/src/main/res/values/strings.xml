@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formulario sospechoso</string>
+    <string name="h_name">Nombres</string>
+    <string name="l_name">Apellido</string>
+    <string name="t_docum">Tipo de documento</string>
+    <string name="dni">DNI</string>
+    <string name="pasaport">Pasaporte</string>
+    <string name="partnac">P.Nacimiento</string>
+    <string name="h_address">Dirección</string>
+</resources>
